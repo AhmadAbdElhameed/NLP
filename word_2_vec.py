@@ -7,6 +7,8 @@ Created on Sat May  1 17:06:12 2021
 
 import nltk
 nltk.download('stopwords')
+import numpy
+import pandas
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer

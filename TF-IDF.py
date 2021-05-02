@@ -13,6 +13,7 @@ Created on Thu Apr 29 17:14:41 2021
 """
 
 import nltk
+nltk.download('stopwords')
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
